@@ -1,2 +1,2 @@
 # alphine-sshd
-Alphine Docker image with ssh server
+A Docker image of Alpine with ssh
