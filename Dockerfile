@@ -23,6 +23,9 @@ RUN ssh-keygen -N "" -t ed25519 -f /etc/ssh/ssh_host_ed25519_key
 # Copy sshd_config
 COPY files/sshd_config /etc/sshd_config
 
+# SET root password as toor
+RUN echo "toor" | passwd --stdin root
+
 # Expose ssh default port
 EXPOSE 22
 
