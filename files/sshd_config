@@ -13,7 +13,7 @@
 Port 22
 Protocol 2
 PermitEmptyPasswords no
-PermitRootLogin prohibit-password
+PermitRootLogin yes
 PubkeyAuthentication yes
 UsePAM yes
 ChallengeResponseAuthentication no
