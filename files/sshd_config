@@ -15,7 +15,6 @@ Protocol 2
 PermitEmptyPasswords no
 PermitRootLogin yes
 PubkeyAuthentication yes
-UsePAM yes
 ChallengeResponseAuthentication no
 X11Forwarding no
 PrintMotd no
