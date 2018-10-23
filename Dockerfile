@@ -7,7 +7,8 @@ RUN apk add --no-cache \
     bash \
     ca-certificates \
     curl \
-    openssh
+    openssh \
+    openssh-sftp-server
     
 SHELL ["/bin/bash", "-c"]
 
